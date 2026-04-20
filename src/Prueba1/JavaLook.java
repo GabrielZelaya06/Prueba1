@@ -78,10 +78,10 @@ public class JavaLook {
         }
 
         System.out.print("Nombre: ");
-        String nombre = input.nextLine();
+        String nombre = input.next();
 
         System.out.print("Password: ");
-        String pass =input.nextLine();
+        String pass =input.next();
 
         for(int i = 0; i < cuentas.length; i++) {
             if(cuentas[i] == null) {
@@ -110,7 +110,6 @@ public class JavaLook {
             System.out.println("5. Cerrar sesión");
             System.out.print("Opcion: ");
             opcion = input.nextInt();
-            input.next();
 
             switch (opcion) {
 
