@@ -28,7 +28,6 @@ public class JavaLook {
             System.out.println("3. Salir");
             System.out.print("Opcion: ");
             opcion = input.nextInt();
-            input.next();
 
             switch(opcion){
                 case 1:
