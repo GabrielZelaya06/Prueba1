@@ -124,7 +124,6 @@ public class JavaLook {
                 case 3:
                     System.out.print("Posicion: ");
                     int pos = input.nextInt();
-                    input.next();
                     activa.leerCorreo(pos);
                     break;
 
